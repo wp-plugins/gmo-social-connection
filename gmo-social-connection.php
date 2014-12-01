@@ -1,0 +1,48 @@
+<?php
+/*
+Plugin Name: GMO Social Connection
+Plugin URI: 
+Description: This plugin inserts social share links at the top or bottom of each post.
+Author: GMO Internet,inc.
+Author URI: 
+Version: 1.0
+*/
+
+// settings
+define( "GMO_SOCIAL_CONNECTION_DIR", WP_PLUGIN_DIR."/gmo-social-connection" );
+define( "GMO_SOCIAL_CONNECTION_URL", WP_PLUGIN_URL."/gmo-social-connection" );
+define( "GMO_SOCIAL_CONNECTION_IMAGES_URL", GMO_SOCIAL_CONNECTION_URL."/images" );
+define( "GMO_SOCIAL_CONNECTION_DOMAIN", "gmo-social-connection" );
+
+// _e() local domain
+function _ell($val){
+    _e($val, GMO_SOCIAL_CONNECTION_DOMAIN);
+}
+function __ll($val){
+    __($val, GMO_SOCIAL_CONNECTION_DOMAIN);
+}
+
+// load modules
+require_once GMO_SOCIAL_CONNECTION_DIR.'/modules/options.php';
+require_once GMO_SOCIAL_CONNECTION_DIR.'/modules/services.php';
+require_once GMO_SOCIAL_CONNECTION_DIR.'/modules/admin.php';
+require_once GMO_SOCIAL_CONNECTION_DIR.'/modules/content.php';
+
+// multilingualization
+load_plugin_textdomain( GMO_SOCIAL_CONNECTION_DOMAIN, false,
+                        "gmo-social-connection/po" );
+
+// initialize
+function gmo_social_connection_init()
+{
+    add_action('wp_head', 'gmo_social_connection_wp_head');
+    add_action('wp_footer', 'gmo_social_connection_wp_footer');
+    //add_filter('wp_nav_menu_args', 'gmo_social_connection_home');
+    //add_action('wp_nav_menu_args', 'gmo_social_connection_home');
+    add_filter('the_content', 'gmo_social_connection_the_content');
+    add_action('admin_menu', 'gmo_social_connection_admin_menu');
+    
+}
+add_action( 'init', 'gmo_social_connection_init' );
+
+?>
