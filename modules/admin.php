@@ -1258,32 +1258,20 @@ function gmo_social_connection_options_page()
     </table>
 -->
 </div>
-
-	<div id="gmoplugRight">
-	<h3>WordPress Themes</h3>
-	<ul>
-	<li><a href="https://wordpress.org/themes/kotenhanagara" target="_blank">Kotehanagara</a></li>
-	<li><a href="https://wordpress.org/themes/madeini" target="_blank">Madeini</a></li>
-	<li><a href="https://wordpress.org/themes/azabu-juban" target="_blank">Azabu Juban</a></li>
-	<li><a href="http://wordpress.org/themes/de-naani" target="_blank">de naani</a></li>
-	</ul>
-	<a href="http://wpshop.com/themes?=vn_wps_shareconnection" target="_blank"><img src="http://social.sd-wordpress.com/wp/wp-content/plugins/gmo-share-connection/images/wpshop_bnr_themes.png" alt="WPShop by GMO WordPress Themes for Everyone!"></a>
-	<ul><li class="bnrlink"><a href="http://wpshop.com/themes?=wps_shareconnection" target="_blank">Visit WP Shop Themes</a></li></ul>
-	<h3>WordPress Plugins</h3>
-	<ul>
-	<li><a href="http://wordpress.org/plugins/gmo-showtime/" target="_blank">GMO Showtime</a></li>
-	<li><a href="http://wordpress.org/plugins/gmo-font-agent/" target="_blank">GMO Font Agent</a></li>
-	<li><a href="http://wordpress.org/plugins/gmo-share-connection/" target="_blank">GMO Share Connection</a></li>
-	<li><a href="http://wordpress.org/plugins/gmo-ads-master/" target="_blank">GMO Ads Master</a></li>
-	<li><a href="http://wordpress.org/plugins/gmo-page-transitions/" target="_blank">GMO Page Trasitions</a></li>
-	<li><a href="http://wordpress.org/plugins/gmo-go-to-top/" target="_blank">GMO Go to Top</a></li>
-	</ul>
-	<a href="http://wpshop.com/plugins?=vn_wps_shareconnection" target="_blank"><img src="http://social.sd-wordpress.com/wp/wp-content/plugins/gmo-share-connection/images/wpshop_bnr_plugins.png" alt="WPShop by GMO WordPress Plugins for Everyone!"></a>
-	<ul><li class="bnrlink"><a href="http://wpshop.com/plugins?=wps_shareconnection" target="_blank">Visit WP Shop Plugins</a></li></ul>
-	<h3>Contact Us</h3>
-	<a href="http://support.wpshop.com/?page_id=15" target="_blank"><img src="http://social.sd-wordpress.com/wp/wp-content/plugins/gmo-share-connection/images/wpshop_logo.png" alt="WPShop by GMO"></a>
-	</div><!-- #gmoplugRight -->
-
+    
+    <div id="gmoplugRight">
+    <p class="title">Recommended</p>
+    <div>
+    <h3>WordPress Themes</h3>
+    <a href="https://www.wpcloud.jp/en/themes/?banner_id=plugins" target="_blank"><img src="<?php echo (plugins_url() . '/'.'gmo-font-agent/images/'.'wpcloud_bnr_themes.png'); ?>" alt="WordPress Themes for Everyone"></a>
+    <p>Browse our recommended theme collection on GMO WP Cloud website.</p>
+    <h3>WordPress Plugins</h3>
+    <a href="https://www.wpcloud.jp/en/themes/?banner_id=plugins#plugins" target="_blank"><img src="<?php echo (plugins_url() . '/'.'gmo-font-agent/images/'.'wpcloud_bnr_plugins.png'); ?>" alt="WordPress Plugins for Everyone"></a>
+    <p>Browse our recommended plugin collection on GMO WP Cloud website.</p>
+    <h3>Who We Are</h3>
+    <a href="https://www.wpcloud.jp/en/?banner_id=plugins" target="_blank" class="logo"><img src="<?php echo (plugins_url() . '/'.'gmo-font-agent/images/'.'wpcloud_logo.png'); ?>" alt="WPCloud by GMO"></a>
+    </div>
+    </div><!-- #gmoplugRight -->
 
 </div>
 

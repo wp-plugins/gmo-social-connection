@@ -3,9 +3,9 @@
 Plugin Name: GMO Social Connection
 Plugin URI: 
 Description: This plugin inserts social share links at the top or bottom of each post.
-Author: GMO Internet,inc.
-Author URI: 
-Version: 1.0
+Author: GMO WP Cloud
+Author URI: https://www.wpcloud.jp/en/
+Version: 1.1
 */
 
 // settings

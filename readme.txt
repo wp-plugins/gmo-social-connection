@@ -1,13 +1,13 @@
 === Plugin Name ===
 
 Plugin Name: GMO Social Connection 
-Author: WP Shop byGMO
-Author URI: http://www.wpshop.com
+Author: GMO WP Cloud
+Author URI: http://wwws.wpcloud.jp/en/
 Contributors: Takeaki Nagashima
 Tags: Widget
 Requires at least: 3.8
-Tested up to: 4.0 
-Stable tag: Version 1.0 
+Tested up to: 4.1.1
+Stable tag: Version 1.1 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,8 @@ This is the list of used social sites:
 
 
 == Changelog ==
+=1.1=
+* Updated Author Profile
 
 = 1.0.0 =
 * First Release
